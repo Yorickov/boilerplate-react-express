@@ -1,4 +1,4 @@
-# boilerplate React (Express/Webpack)
+# boilerplate React (express/webpack)
 
 [![Build Status](https://travis-ci.org/Yorickov/boilerplate-react-express.svg?branch=master)](https://travis-ci.org/Yorickov/boilerplate-react-express)
 [![Code Climate](https://api.codeclimate.com/v1/badges/00/maintainability)](https://codeclimate.com/github/Yorickov/boilerplate-react-express/maintainability)
