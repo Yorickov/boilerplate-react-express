@@ -1,0 +1,10 @@
+extends ../layouts/app.pug
+
+block content
+  .container.mt-5
+    .row.justify-content-center
+      .col-sm-6
+        h3.text-center.mb-3 Wecome to React!
+        .list-group
+          a.list-group-item(href=url('card')) Card
+          a.list-group-item(href=url('root')) root

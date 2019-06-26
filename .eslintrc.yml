@@ -1,0 +1,36 @@
+---
+
+plugins:
+  - jest
+  - babel
+  - react
+
+env:
+  node: true
+  jest: true
+  jasmine: true
+
+parser: babel-eslint
+
+extends:
+  - 'airbnb-base'
+  - 'plugin:jest/recommended'
+  # - 'plugin:lodash-fp/recommended'
+  - 'plugin:react/recommended'
+
+settings:
+  react:
+    version: detect
+  # import/extensions:
+  #   node:
+  #     extensions: ['js', 'jsx']
+
+
+rules:
+  no-console: 0
+  class-methods-use-this: 0
+  import/no-unresolved: 0
+  no-undef: 0
+  react/prop-types: 0
+  # no-await-in-loop: 0
+  # no-restricted-syntax: 0

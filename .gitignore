@@ -1,0 +1,7 @@
+/node_modules/
+*.log
+.tern-port
+public/assets
+.DS_Store
+.bash_history
+coverage
